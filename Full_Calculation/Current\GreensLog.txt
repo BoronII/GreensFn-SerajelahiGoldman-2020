@@ -1,0 +1,6 @@
+GreensLog.txt
+
+----- kmain = 1, kvessel = 2, ktissue = 2 -----
+Solute 1: qtsum = -25872.763672, qvsum = 26334.572266, g0 = 5.000000
+Solute 1: errvessel_q = 201.400040, imaxerr = 82
+Solute 1: errtissue_q = 3.897233, imaxerr = 1223

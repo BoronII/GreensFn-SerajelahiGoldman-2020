@@ -1,0 +1,377 @@
+Group name: vessels
+ Shape.  Dimension=1
+ #Scale factor sets= 1
+  l.Lagrange, #Scale factors= 2
+ #Nodes= 2
+ #Fields=3
+ 1) coordinates, coordinate, rectangular cartesian, #Components=3
+   x.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+   y.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+   z.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+ 2) vessel_radius, coordinate, rectangular cartesian, #Components=1
+   1.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+ 3) node_colour, coordinate, rectangular cartesian, #Components=3
+   1.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+   2.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+   3.  l.Lagrange, no modify, standard node based.
+     #Nodes= 2
+      1.  #Values=1
+       Value indices:     1
+       Scale factor indices:   1
+      2.  #Values=1
+       Value indices:     1
+       Scale factor indices:   2
+Element: 1 0 0
+  Nodes: 1 2
+  Scale factors: 1 1
+Element: 2 0 0
+  Nodes: 3 4
+  Scale factors: 1 1
+Element: 3 0 0
+  Nodes: 5 6
+  Scale factors: 1 1
+Element: 4 0 0
+  Nodes: 7 8
+  Scale factors: 1 1
+Element: 5 0 0
+  Nodes: 9 10
+  Scale factors: 1 1
+Element: 6 0 0
+  Nodes: 11 12
+  Scale factors: 1 1
+Element: 7 0 0
+  Nodes: 13 14
+  Scale factors: 1 1
+Element: 8 0 0
+  Nodes: 15 16
+  Scale factors: 1 1
+Element: 9 0 0
+  Nodes: 17 18
+  Scale factors: 1 1
+Element: 10 0 0
+  Nodes: 19 20
+  Scale factors: 1 1
+Element: 11 0 0
+  Nodes: 21 22
+  Scale factors: 1 1
+Element: 12 0 0
+  Nodes: 23 24
+  Scale factors: 1 1
+Element: 13 0 0
+  Nodes: 25 26
+  Scale factors: 1 1
+Element: 14 0 0
+  Nodes: 27 28
+  Scale factors: 1 1
+Element: 15 0 0
+  Nodes: 29 30
+  Scale factors: 1 1
+Element: 16 0 0
+  Nodes: 31 32
+  Scale factors: 1 1
+Element: 17 0 0
+  Nodes: 33 34
+  Scale factors: 1 1
+Element: 18 0 0
+  Nodes: 35 36
+  Scale factors: 1 1
+Element: 19 0 0
+  Nodes: 37 38
+  Scale factors: 1 1
+Element: 20 0 0
+  Nodes: 39 40
+  Scale factors: 1 1
+Element: 21 0 0
+  Nodes: 41 42
+  Scale factors: 1 1
+Element: 22 0 0
+  Nodes: 43 44
+  Scale factors: 1 1
+Element: 23 0 0
+  Nodes: 45 46
+  Scale factors: 1 1
+Element: 24 0 0
+  Nodes: 47 48
+  Scale factors: 1 1
+Element: 25 0 0
+  Nodes: 49 50
+  Scale factors: 1 1
+Element: 26 0 0
+  Nodes: 51 52
+  Scale factors: 1 1
+Element: 27 0 0
+  Nodes: 53 54
+  Scale factors: 1 1
+Element: 28 0 0
+  Nodes: 55 56
+  Scale factors: 1 1
+Element: 29 0 0
+  Nodes: 57 58
+  Scale factors: 1 1
+Element: 30 0 0
+  Nodes: 59 60
+  Scale factors: 1 1
+Element: 31 0 0
+  Nodes: 61 62
+  Scale factors: 1 1
+Element: 32 0 0
+  Nodes: 63 64
+  Scale factors: 1 1
+Element: 33 0 0
+  Nodes: 65 66
+  Scale factors: 1 1
+Element: 34 0 0
+  Nodes: 67 68
+  Scale factors: 1 1
+Element: 35 0 0
+  Nodes: 69 70
+  Scale factors: 1 1
+Element: 36 0 0
+  Nodes: 71 72
+  Scale factors: 1 1
+Element: 37 0 0
+  Nodes: 73 74
+  Scale factors: 1 1
+Element: 38 0 0
+  Nodes: 75 76
+  Scale factors: 1 1
+Element: 39 0 0
+  Nodes: 77 78
+  Scale factors: 1 1
+Element: 40 0 0
+  Nodes: 79 80
+  Scale factors: 1 1
+Element: 41 0 0
+  Nodes: 81 82
+  Scale factors: 1 1
+Element: 42 0 0
+  Nodes: 83 84
+  Scale factors: 1 1
+Element: 43 0 0
+  Nodes: 85 86
+  Scale factors: 1 1
+Element: 44 0 0
+  Nodes: 87 88
+  Scale factors: 1 1
+Element: 45 0 0
+  Nodes: 89 90
+  Scale factors: 1 1
+Element: 46 0 0
+  Nodes: 91 92
+  Scale factors: 1 1
+Element: 47 0 0
+  Nodes: 93 94
+  Scale factors: 1 1
+Element: 48 0 0
+  Nodes: 95 96
+  Scale factors: 1 1
+Element: 49 0 0
+  Nodes: 97 98
+  Scale factors: 1 1
+Element: 50 0 0
+  Nodes: 99 100
+  Scale factors: 1 1
+Element: 51 0 0
+  Nodes: 101 102
+  Scale factors: 1 1
+Element: 52 0 0
+  Nodes: 103 104
+  Scale factors: 1 1
+Element: 53 0 0
+  Nodes: 105 106
+  Scale factors: 1 1
+Element: 54 0 0
+  Nodes: 107 108
+  Scale factors: 1 1
+Element: 55 0 0
+  Nodes: 109 110
+  Scale factors: 1 1
+Element: 56 0 0
+  Nodes: 111 112
+  Scale factors: 1 1
+Element: 57 0 0
+  Nodes: 113 114
+  Scale factors: 1 1
+Element: 58 0 0
+  Nodes: 115 116
+  Scale factors: 1 1
+Element: 59 0 0
+  Nodes: 117 118
+  Scale factors: 1 1
+Element: 60 0 0
+  Nodes: 119 120
+  Scale factors: 1 1
+Element: 61 0 0
+  Nodes: 121 122
+  Scale factors: 1 1
+Element: 62 0 0
+  Nodes: 123 124
+  Scale factors: 1 1
+Element: 63 0 0
+  Nodes: 125 126
+  Scale factors: 1 1
+Element: 64 0 0
+  Nodes: 127 128
+  Scale factors: 1 1
+Element: 65 0 0
+  Nodes: 129 130
+  Scale factors: 1 1
+Element: 66 0 0
+  Nodes: 131 132
+  Scale factors: 1 1
+Element: 67 0 0
+  Nodes: 133 134
+  Scale factors: 1 1
+Element: 68 0 0
+  Nodes: 135 136
+  Scale factors: 1 1
+Element: 69 0 0
+  Nodes: 137 138
+  Scale factors: 1 1
+Element: 70 0 0
+  Nodes: 139 140
+  Scale factors: 1 1
+Element: 71 0 0
+  Nodes: 141 142
+  Scale factors: 1 1
+Element: 72 0 0
+  Nodes: 143 144
+  Scale factors: 1 1
+Element: 73 0 0
+  Nodes: 145 146
+  Scale factors: 1 1
+Element: 74 0 0
+  Nodes: 147 148
+  Scale factors: 1 1
+Element: 75 0 0
+  Nodes: 149 150
+  Scale factors: 1 1
+Element: 76 0 0
+  Nodes: 151 152
+  Scale factors: 1 1
+Element: 77 0 0
+  Nodes: 153 154
+  Scale factors: 1 1
+Element: 78 0 0
+  Nodes: 155 156
+  Scale factors: 1 1
+Element: 79 0 0
+  Nodes: 157 158
+  Scale factors: 1 1
+Element: 80 0 0
+  Nodes: 159 160
+  Scale factors: 1 1
+Element: 81 0 0
+  Nodes: 161 162
+  Scale factors: 1 1
+Element: 82 0 0
+  Nodes: 163 164
+  Scale factors: 1 1
+Element: 83 0 0
+  Nodes: 165 166
+  Scale factors: 1 1
+Element: 84 0 0
+  Nodes: 167 168
+  Scale factors: 1 1
+Element: 85 0 0
+  Nodes: 169 170
+  Scale factors: 1 1
+Element: 86 0 0
+  Nodes: 171 172
+  Scale factors: 1 1
+Element: 87 0 0
+  Nodes: 173 174
+  Scale factors: 1 1
+Element: 88 0 0
+  Nodes: 175 176
+  Scale factors: 1 1
+Element: 89 0 0
+  Nodes: 177 178
+  Scale factors: 1 1
+Element: 90 0 0
+  Nodes: 179 180
+  Scale factors: 1 1
+Element: 91 0 0
+  Nodes: 181 182
+  Scale factors: 1 1
+Element: 92 0 0
+  Nodes: 183 184
+  Scale factors: 1 1
+Element: 93 0 0
+  Nodes: 185 186
+  Scale factors: 1 1
+Element: 94 0 0
+  Nodes: 187 188
+  Scale factors: 1 1
+Element: 95 0 0
+  Nodes: 189 190
+  Scale factors: 1 1
+Element: 96 0 0
+  Nodes: 191 192
+  Scale factors: 1 1
+Element: 97 0 0
+  Nodes: 193 194
+  Scale factors: 1 1
+Element: 98 0 0
+  Nodes: 195 196
+  Scale factors: 1 1
+Element: 99 0 0
+  Nodes: 197 198
+  Scale factors: 1 1
+Element: 100 0 0
+  Nodes: 199 200
+  Scale factors: 1 1
+Element: 101 0 0
+  Nodes: 201 202
+  Scale factors: 1 1
+Element: 102 0 0
+  Nodes: 203 204
+  Scale factors: 1 1
+Element: 103 0 0
+  Nodes: 205 206
+  Scale factors: 1 1
+Element: 104 0 0
+  Nodes: 207 208
+  Scale factors: 1 1

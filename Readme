@@ -1,0 +1,102 @@
+The source code for this project was obtained from: https://physiology.arizona.edu/people/secomb/greens
+
+The Full_Calculation directory contains the same calculation found in the working source.
+
+The Approximate_Calculation directories run an approximate version of the calculation where the oxygen field at any point is calculated by summing over the influence of the sources and sinks that are within a certain cutoff distance. Any sources or sinks outside of the cutoff distance are ignored. The goal of the approximation is to reduce the number of steps in the calculation and increase speed. For more details on this 
+take a look at our paper published for EMBC2020 (Serajelahi, Goldman, Kharche).
+------> the cut_off distance can be set in the main .cpp file for this calculation, GreensFn.cpp. <-------
+
+The project was modified and set up so that the code can be run on the mac computers found in the Goldman group computer lab.
+
+The working source folder contains the original code which did not run properly on mac  computers.
+
+The unmodified calculation is found in the Full_Calculation directory.
+
+The Approximate_Calculation is contained in the Approximate_Calculation directory.
+
+More information can be found in the Readme files therein. 
+
+Understanding of the following files is enough to have a working understanding of this calculation.
+More information can be found in the readme file that is provided with the working source. 
+These files were simplified from the versions that can be found in working source, the original versions of the files
+can be found by scrolling down to the end of each file. This will help give the user an idea of the meaning of the 
+data contained in these files.
+
+
+#simpleNetwork
+- This file contains all the information about the location of nodes and node connectivity in the network.
+- The size of the  tissue region that the network is contained in.
+- It is also where the boundary values for hematocrit and solute concentration are specified
+- As well as the relative  flow in each segment of the network (THERE IS NO FLOW CALCULATION IN THIS PIPELINE)
+
+
+#simpleSoluteParams
+#Some parameters such as oxygen carrying capacity, P50, oxygen solubility of the blood etc... 
+
+
+#simpleVaryParams
+- This can potentially be used to loop  through the calculation specifying different values for the parameters each time.
+- This functionality is turned off in the current version and it is not known to work.
+
+
+#simpleIntravascRes
+- This is used to calculate the the intravascular resistance to oxygen
+- More on this in the comments within GreensFn.cpp
+
+
+#simpleContourParams
+- Used to generate a contour plot, this came with the original code.
+
+
+#tissrate.cpp.txt
+- used in the tissrate function that can be found at the bottom of GreensFn.cpp
+
+
+#postgreens.cpp.dat
+- A file where you can write some code to do some calculation after the main calculation if you would like.
+
+
+#GreensFn.cpp
+- All functions are declared at the top of the file and defined and the end of the file after the main() function.
+
+
+#GreensFn.h
+- The header for GreensFn.cpp, libraries that the code is dependant on are imported here.
+
+
+#myVariables.c
+- Contains variable declarations for GreensFn.cpp
+
+
+#nrutil.c/h
+- This is a common package that is used to do maths in C++
+
+
+#TissueLevels.txt
+- The calculated oxygen field 
+
+
+Basic steps to use this code
+
+1. Set up your network in simpleNetwork.
+- x, y, z dimensions in the first line
+- number of tissue points in each of the x, y, z directions second line
+- Outbound distance in the third line (set this to a large number if you
+want to make sure that none of the tissue points in the rectangular domain are dropped when the tissue region is calculated in lines 1714 - 1808 of Greens.cpp
+
+
+2. Adjust the solute parameters in simpleSoluteParams as desired.
+3. IF you are working with the approximate calculation, set the cutoff distance (cutoff_dist) in GreensFn.cpp
+4. run the calculation by navigating to the appropriate directory inside your terminal and type ./runthis.sh
+This will run the shell script runthis.sh, which will in turn compile the code (using the makefile) into gf and run the calculation.
+5. The calculated oxygen field can then be found in TissueLevels.txt and it can be plotted by using the  matlab script that can be found in the Visualization script directory.
+
+
+
+
+
+
+
+
+
+
