@@ -14,8 +14,6 @@ The unmodified calculation is found in the Full_Calculation directory.
 
 The Approximate_Calculation is contained in the Approximate_Calculation directory.
 
-More information can be found in the Readme files therein. 
-
 Understanding of the following files is enough to have a working understanding of this calculation.
 More information can be found in the readme file that is provided with the working source. 
 These files were simplified from the versions that can be found in working source, the original versions of the files
