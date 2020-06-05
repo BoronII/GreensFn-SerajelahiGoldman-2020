@@ -3,7 +3,7 @@ The source code for this project was obtained from: https://physiology.arizona.e
 The Full_Calculation directory contains the same calculation found in the working source.
 
 The Approximate_Calculation directories run an approximate version of the calculation where the oxygen field at any point is calculated by summing over the influence of the sources and sinks that are within a certain cutoff distance. Any sources or sinks outside of the cutoff distance are ignored. The goal of the approximation is to reduce the number of steps in the calculation and increase speed. For more details on this 
-take a look at our paper published for EMBC2020 (Serajelahi, Goldman, Kharche).
+take a look at our paper published for EMBC2020, "Steady-State Tissue Oxygen Distributions Calculated by a Green’s Function Method and a Finite Difference Method: A Comparison"     (Serajelahi, Goldman, Kharche).
 ------> the cut_off distance can be set in the main .cpp file for this calculation, GreensFn.cpp. <-------
 
 The project was modified and set up so that the code can be run on the mac computers found in the Goldman group computer lab.
